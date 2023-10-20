@@ -1,3 +1,5 @@
+package tarefas;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,7 +34,7 @@ public class ListaTarefa {
     }
 
     public static void main(String[] args) {
-       ListaTarefa listaTarefa = new ListaTarefa();
+        ListaTarefa listaTarefa = new ListaTarefa();
         System.out.println("O número total de tarefas é :" + listaTarefa.obterNumeroTotalTarefas());
 
         listaTarefa.adicionarTarefa("Tarefa 1");

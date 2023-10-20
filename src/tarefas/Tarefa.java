@@ -1,3 +1,5 @@
+package tarefas;
+
 public class Tarefa {
     //atributo
     private  String descricao;
